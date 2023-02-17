@@ -17,10 +17,14 @@ header{
     /* font-weight: bolder; */
     display: flex;
     justify-content: center;
+    
   }
+  
+  
   .header-text p{
     color:grey;
     font-size: small;
+    padding-top: 0;
   }
 .btn{
    display: flex;
@@ -159,12 +163,19 @@ padding-top: 60px;
     .display{
         display: grid;
         grid-template-columns: 1, 1fr;
+        row-gap:40px ;
     }
-    
+    .display img{
+        width: 80vh;
+    }
+   .border, .box-shadow{
+    margin-left: 50px;
+   } 
+  
 }
 
 .display img{
-   width: 80vh;
+   width: 77.4vh;
     
 }
 .box{
@@ -279,8 +290,9 @@ padding-top: 20px;
 .reveiw{
     width: 200px;
     height: 350px;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     border-radius: 5px;
+    box-shadow: 0 2px 6px 0 gray ;
 }
 .reveiw img{
     height: 200px;
@@ -294,11 +306,14 @@ padding-top: 20px;
 
     
 }
+.rating a{
+    color: orange;
+}
 .rating{
     margin-left: 15px;
 }
-.client h2{
-   margin-top: 60px;
+.client h3{
+   margin-top: 90px;
    margin-bottom: 30px;
    margin-left: 350px;
 }
@@ -311,14 +326,21 @@ padding-top: 20px;
     .reveiw{
         width: 100%;
         height: 100%;
+        box-shadow: 0 2px 6px 0 gray ;
     }
     .reveiw img{
         width: 100%;
         
     }
-    .client h2{
-        margin-left: 43px;
+    .client h3{
+       width: 60%;
+       margin: 0 auto;
+       margin-top: 40px;
+       margin-bottom: 30px;
     }
+   .text-decoration h2{
+    margin-left: 30px;
+   } 
 }
 footer{
     background-color: rgba(255, 222, 173, 0.25) ;
@@ -353,4 +375,7 @@ padding-top: 30px;
 }
 .bonus-btn-style{
    margin-left: 50px;
+}
+.sponsor{
+    margin-top: 80px;
 }
