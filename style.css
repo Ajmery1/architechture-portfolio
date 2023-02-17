@@ -166,7 +166,7 @@ padding-top: 60px;
         row-gap:40px ;
     }
     .display img{
-        width: 80vh;
+        width: 100%;
     }
    .border, .box-shadow{
     margin-left: 50px;
@@ -174,10 +174,7 @@ padding-top: 60px;
   
 }
 
-.display img{
-   width: 77.4vh;
-    
-}
+
 .box{
 /* background-color: beige; */
     height: 120px;
